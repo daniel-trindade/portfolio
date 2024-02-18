@@ -1,0 +1,9 @@
+.techContainer{
+  display: flex;
+  flex-direction: column;
+}
+
+.tech{
+  display: flex;
+  justify-content: center;
+}
