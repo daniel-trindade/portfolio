@@ -1,0 +1,7 @@
+.techContainer{
+  width: 20em;
+  height: 23em;
+  border: 2px solid black;
+  border-radius: 20px;
+  margin: 2em;
+}
