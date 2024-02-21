@@ -5,19 +5,19 @@ import meImg from '../imgs/eusemfundo.png'
 const HomePage = () => {
 
   return(
-    <div>
+    <div className={styles.mainContainer}>
       <div className={styles.nameContainer}>
         <h1 className={styles.initialScreem}>Daniel Trindade</h1>
         <p>Desenvolvedor WEB</p>
       </div>
       <div className={styles.aboutMe}>
-        <div>
+        <div className={styles.imgContainer}>
           <img src={meImg} className={styles.mePhoto} />
         </div>
-        <div>
+        <div className={styles.txtContainer}>
           <h1>Sobre mim</h1>
           <p>
-            Olá, sou Daniel Trindade, apaixonado por tecnologia e dedicado à programação web. Graduado em Ciência e Tecnologia pela Universidade Federal do Rio Grande do Norte, atualmente cursando o 7° período de Engenharia da Computação na mesma instituição. Sou um profissional criativo, de rápido aprendizado e que aprecia desafios.
+            Sou apaixonado por tecnologia e dedicado à programação web. Graduado em Ciência e Tecnologia pela Universidade Federal do Rio Grande do Norte, atualmente cursando o 7° período de Engenharia da Computação na mesma instituição. Sou um profissional criativo, de rápido aprendizado e que aprecia desafios.
           </p>
         </div>
         
