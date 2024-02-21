@@ -15,6 +15,16 @@
   font-size: 20pt;
 }
 
+.aboutMe{
+  height: 50vh;
+  display: flex;
+  
+}
+
+.mePhoto{
+  height: 300px;
+}
+
 .techContainer{
   display: flex;
   flex-direction: column;

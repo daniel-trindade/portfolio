@@ -1,5 +1,6 @@
 import styles from './HomePage.module.css'
 import TechBox from '../components/TechBox'
+import meImg from '../imgs/eusemfundo.png'
 
 const HomePage = () => {
 
@@ -10,10 +11,16 @@ const HomePage = () => {
         <p>Desenvolvedor WEB</p>
       </div>
       <div className={styles.aboutMe}>
-        <h1>Sobre mim</h1>
-        <p>
-          Olá, sou Daniel Trindade, apaixonado por tecnologia e dedicado à programação web. Graduado em Ciência e Tecnologia pela Universidade Federal do Rio Grande do Norte, atualmente cursando o 7° período de Engenharia da Computação na mesma instituição. Sou um profissional criativo, de rápido aprendizado e que aprecia desafios.
-        </p>
+        <div>
+          <img src={meImg} className={styles.mePhoto} />
+        </div>
+        <div>
+          <h1>Sobre mim</h1>
+          <p>
+            Olá, sou Daniel Trindade, apaixonado por tecnologia e dedicado à programação web. Graduado em Ciência e Tecnologia pela Universidade Federal do Rio Grande do Norte, atualmente cursando o 7° período de Engenharia da Computação na mesma instituição. Sou um profissional criativo, de rápido aprendizado e que aprecia desafios.
+          </p>
+        </div>
+        
       </div>
       <div className={styles.techContainer}>
         <h1>Tecnologias</h1>
