@@ -5,8 +5,9 @@ const HomePage = () => {
 
   return(
     <div>
-      <div>
+      <div className={styles.nameContainer}>
         <h1 className={styles.initialScreem}>Daniel Trindade</h1>
+        <p>Desenvolvedor WEB</p>
       </div>
       <div className={styles.aboutMe}>
         <h1>Sobre mim</h1>
