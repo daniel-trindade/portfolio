@@ -6,11 +6,11 @@ const HomePage = () => {
 
   return(
     <div className={styles.mainContainer}>
-      <div className={styles.nameContainer}>
+      <section className={styles.nameContainer}>
         <h1 className={styles.initialScreem}>Daniel Trindade</h1>
         <p>Desenvolvedor WEB</p>
-      </div>
-      <div className={styles.aboutMe}>
+      </section>
+      <section className={styles.aboutMe}>
         <div className={styles.imgContainer}>
           <img src={meImg} className={styles.mePhoto} />
         </div>
@@ -21,7 +21,7 @@ const HomePage = () => {
           </p>
         </div>
         
-      </div>
+      </section>
       <div className={styles.techContainer}>
         <h1>Tecnologias</h1>
         <div className={styles.tech}>
