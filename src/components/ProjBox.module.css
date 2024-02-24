@@ -1,7 +1,14 @@
 .projContainer{
-  width: 400px;
-  height: 500px;
+  width: 480px;
+  height: 270px;
   display: flex;
   flex-direction: column;
+}
+
+.transition{
   border: 3px solid black;
+  width: 480px;
+  height: 270px;
+  display: flex;
+  flex-direction: column;
 }
