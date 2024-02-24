@@ -1,0 +1,22 @@
+{
+  "projetos":[
+    {
+      "title": "Costs",
+      "description": "Um gerenciador financeiro para projetos de desenvolvimento web, sendo possível definir projetos com seus respectivos orçamentos e inserir cada custo que o projeto teve visando ter um maior controle financeito de cada projeto",
+      "imgSrc": "src\imgs\Costs1.PNG",
+      "techs": ["React", "JavaScript", "HTML", "CSS"]
+    },
+    {
+      "title": "Calculadora",
+      "description": "Calculadora para operações basicas.",
+      "imgSrc": "src\imgs\Costs1.PNG",
+      "techs": ["JavaScript", "HTML", "CSS"]
+    },
+    {
+      "title": "Dice Master",
+      "description": "Simulador de dados de 4, 6, 8, 12, e 20 lados para multiplos usos",
+      "imgSrc": "src\imgs\Costs1.PNG",
+      "techs": ["JavaScript", "HTML", "CSS"]
+    }
+  ]
+}

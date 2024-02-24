@@ -25,7 +25,7 @@ const HomePage = () => {
         </div>
         
       </section>
-      <div className={styles.techContainer}>
+      <section className={styles.techContainer}>
         <h1>Tecnologias</h1>
         <div className={styles.tech}>
           <TechBox
@@ -44,15 +44,18 @@ const HomePage = () => {
             techs={['C++', 'C', 'QT', 'Python']}
           />
         </div>
-      </div>
+      </section>
       <div className={styles.projectContainer}>
         <h1>Projetos</h1>
-        <ProjBox
-          img={imgCosts}
-          title='Costs' 
-          description='Um gerenciador financeiro para projetos de desenvolvimento web, sendo possível definir projetos com seus respectivos orçamentos e inserir cada custo que o projeto teve visando ter um maior controle financeito de cada projeto'
-          techs={['React', 'JavaScript', 'HTML', 'CSS']}
-        />
+        <a href="#">        
+          <ProjBox
+            img={imgCosts}
+            title='Costs' 
+            description='Um gerenciador financeiro para projetos de desenvolvimento web, sendo possível definir projetos com seus respectivos orçamentos e inserir cada custo que o projeto teve visando ter um maior controle financeito de cada projeto'
+            techs={['React', 'JavaScript', 'HTML', 'CSS']}
+          />
+        </a>
+
 
       </div>
     </div>

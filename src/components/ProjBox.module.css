@@ -1,14 +1,72 @@
+
 .projContainer{
   width: 480px;
-  height: 270px;
+  height: 315px;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
-.transition{
-  border: 3px solid black;
+.projContainer a{
+  text-decoration: none;
+  font-size: 24pt;
+  font-weight: bolder;
+}
+
+.boxAnimation {
+  position: relative;
   width: 480px;
   height: 270px;
+  overflow: hidden;
+  
+}
+
+.boxAnimation img {
+  width: 480px;
+  height: 270px;
+  transition: opacity 0.5s ease; /* Transição suave */
+  opacity: 1; /* Inicialmente visível */
+  border-radius: 30px;
+  
+}
+
+.descriptionContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 460px;
+  height: 250px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #ffffff;
   display: flex;
   flex-direction: column;
+  padding: 10px;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  pointer-events: none;
+  border-radius: 30px;
+
+  /*TEXTO*/
+  text-align: justify;
+
+}
+
+.descriptionContainer p{
+  font-size: 14pt;
+  margin-bottom: .6em;
+}
+
+.boxAnimation:hover .descriptionContainer {
+  opacity: 1; /* Torna a descrição visível no hover */
+}
+
+.list{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  font-size: 14pt;
+}
+
+.listItem{
+  margin: 1em;
 }
