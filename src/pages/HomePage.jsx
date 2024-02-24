@@ -1,6 +1,9 @@
 import styles from './HomePage.module.css'
 import TechBox from '../components/TechBox'
 import meImg from '../imgs/eusemfundo.png'
+import ProjBox from '../components/ProjBox'
+import imgCosts from '../imgs/Costs1.PNG'
+
 
 const HomePage = () => {
 
@@ -41,6 +44,16 @@ const HomePage = () => {
             techs={['C++', 'C', 'QT', 'Python']}
           />
         </div>
+      </div>
+      <div className={styles.projectContainer}>
+        <h1>Projetos</h1>
+        <ProjBox
+          img={imgCosts}
+          title='Costs' 
+          description='Um gerenciador financeiro para projetos de desenvolvimento web, sendo possível definir projetos com seus respectivos orçamentos e inserir cada custo que o projeto teve visando ter um maior controle financeito de cada projeto'
+          techs={['React', 'JavaScript', 'HTML', 'CSS']}
+        />
+
       </div>
     </div>
   )
