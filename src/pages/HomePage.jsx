@@ -2,7 +2,7 @@ import styles from './HomePage.module.css'
 import TechBox from '../components/TechBox'
 import meImg from '../imgs/eusemfundo.png'
 import ProjBox from '../components/ProjBox'
-import imgCosts from '../imgs/Costs1.PNG'
+import imgCosts from '../imgs/projs/Costs1.PNG'
 
 
 const HomePage = () => {
@@ -29,20 +29,10 @@ const HomePage = () => {
         <h1>Tecnologias</h1>
         <div className={styles.tech}>
           <TechBox
-            title='Front-End'
-            text='Desenvolvo sites responsivos, componentizados e dotados de tecnologia atuais em conjunto com bibliotecas populares tais como bootstrap e Konva.'
-            techs={['React', 'HTML', 'CSS']}
+            tech="JavaScript"
+            lvlExp="2"
           />
-          <TechBox
-            title='Back-End'
-            text='Ápto a promover integração entre Banco de Dados e o Front de forma segura e otimizada com bom domínio da lógica de programação.'
-            techs={['JavaScript', 'PHP', 'MySQL']}
-          />
-          <TechBox
-            title='Outros'
-            text='Durante o processo de formação na Universidade pude desenvolver alguns projetos que me deram fluencia nas seguintes linguagens:'
-            techs={['C++', 'C', 'QT', 'Python']}
-          />
+          
         </div>
       </section>
       <div className={styles.projectContainer}>

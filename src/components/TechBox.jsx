@@ -1,16 +1,13 @@
 import styles from './TechBox.module.css'
 
-const TechBox = ({title, techs, text}) => {
+
+const TechBox = ({tech, lvlExp}) => {
+
 
   return(
     <div className={styles.techContainer}>
-      <h1>{title}</h1>
-      <p>{text}</p>
-      <ul className={styles.list}>
-        {techs.map((tech, index) => (
-          <li key={index} className={styles.listItem}>{tech}</li>
-        ))}
-      </ul>
+      <h1>{tech}</h1>
+      <img src={`../imgs/logos/${tech}.png`} alt={`${tech} logo`} />
     </div>
   )
 }
