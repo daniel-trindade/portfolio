@@ -1,27 +1,28 @@
 .techContainer{
-  width: 20em;
-  height: 23em;
+  width: 150px;
+  height: 200px;
   border: 2px solid black;
   border-radius: 20px;
   margin: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.techContainer img{
+  height: 100px;
+  margin-top: 5px;
+  margin-bottom: 10px;
 }
 
 .techContainer p{
-  padding: .8em;
-  text-align: justify;
+  font-weight: bold;
+  margin-bottom: 5px;
 }
 
-.techContainer ul{
-  padding: 0;
-}
+.progressBar{
+  width: 100px;
+  height: 10px;
+  border: 2px solid black;
+  border-radius: 30px;
 
-.list{
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  
-}
-
-.listItem{
-  margin: 1em;
 }

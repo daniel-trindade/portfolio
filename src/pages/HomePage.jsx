@@ -29,7 +29,27 @@ const HomePage = () => {
         <h1>Tecnologias</h1>
         <div className={styles.tech}>
           <TechBox
+            tech="HTML"
+            lvlExp="2"
+          />
+          <TechBox
+            tech="CSS"
+            lvlExp="2"
+          />
+          <TechBox
             tech="JavaScript"
+            lvlExp="2"
+          />
+          <TechBox
+            tech="React"
+            lvlExp="2"
+          />
+          <TechBox
+            tech="C++"
+            lvlExp="2"
+          />
+          <TechBox
+            tech="Python"
             lvlExp="2"
           />
           
