@@ -28,7 +28,7 @@ const HomePage = () => {
 
         </div>
 
-        <Button btnName='Download'/>
+        <Button btnName='Acesse meu Curriculo'/>
         
       </section>
       <section className={styles.techContainer}>
