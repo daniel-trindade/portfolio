@@ -2,19 +2,20 @@ import { useRef } from 'react'
 
 import styles from './Button.module.css'
 
-const btnRef = useRef()
-
-const btnFunction = (e) => {
-  if(btnRef.current){
-    let x = e.pageX - btnRef.current.offsetLeft
-    let y = e.pageY - btnRef.current.offsetTop
-  
-    btnRef.style.setProperty('--xAxis', x + 'px')
-    btnRef.style.setProperty('--yAxis', y + 'px')
-  }
-}
-
 const Button = ({btnName}) =>{
+
+  const btnRef = useRef()
+
+  const btnFunction = (e) => {
+
+    if(btnRef.current){
+      let x = e.pageX - btnRef.current.offsetLeft
+      let y = e.pageY - btnRef.current.offsetTop
+    
+      btnRef.current.style.setProperty('--xAxis', x + 'px')
+      btnRef.current.style.setProperty('--yAxis', y + 'px')
+    }
+  }
 
   return(
     <div>
