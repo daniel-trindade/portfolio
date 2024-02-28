@@ -3,6 +3,7 @@ import TechBox from '../components/TechBox'
 import meImg from '../imgs/eusemfundo.png'
 import ProjBox from '../components/ProjBox'
 import imgCosts from '../imgs/projs/Costs1.PNG'
+import Button from '../components/Button'
 
 
 const HomePage = () => {
@@ -14,15 +15,20 @@ const HomePage = () => {
         <p>Desenvolvedor WEB</p>
       </section>
       <section className={styles.aboutMe}>
-        <div className={styles.imgContainer}>
-          <img src={meImg} className={styles.mePhoto} />
+        <div className={styles.me}>
+          <div className={styles.imgContainer}>
+            <img src={meImg} className={styles.mePhoto} />
+          </div>
+          <div className={styles.txtContainer}>
+            <h1>Sobre mim</h1>
+            <p>
+              Sou apaixonado por tecnologia e dedicado à programação web. Graduado em Ciência e Tecnologia pela Universidade Federal do Rio Grande do Norte (UFRN), atualmente cursando o 7° período de Engenharia da Computação na mesma instituição. Sou um profissional criativo, de rápido aprendizado e que aprecia desafios.
+            </p>
+          </div>
+
         </div>
-        <div className={styles.txtContainer}>
-          <h1>Sobre mim</h1>
-          <p>
-            Sou apaixonado por tecnologia e dedicado à programação web. Graduado em Ciência e Tecnologia pela Universidade Federal do Rio Grande do Norte (UFRN), atualmente cursando o 7° período de Engenharia da Computação na mesma instituição. Sou um profissional criativo, de rápido aprendizado e que aprecia desafios.
-          </p>
-        </div>
+
+        <Button btnName='Download'/>
         
       </section>
       <section className={styles.techContainer}>
