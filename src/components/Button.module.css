@@ -18,7 +18,7 @@
 
 .button::before{
   content: '';
-  background-color: #2414ff;
+  background-color: #0434d1;
   width: 0px;
   height: 0px;
   position: absolute;
@@ -27,7 +27,6 @@
   border-radius: 50%;
   transform: translate(-50%, -50%);
   transition: width .5s, height .5s;
-
 }
 
 .button:hover::before{

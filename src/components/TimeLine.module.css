@@ -1,0 +1,62 @@
+.timeLineContainer{
+  padding: 35px 5%;
+  text-align: left;
+}
+
+.row{
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.coluna00 header.colunaTitulo{
+  color: #0daaaf;
+  margin-bottom: 20px;
+}
+
+.coluna00 .content{
+  padding: 0 30px;
+  border-left: solid 2px #bababa;
+}
+
+.coluna00 .content .box{
+  position: relative;
+  padding: 20px;
+  border: solid 1px #eaeaea;
+  cursor: pointer;
+  transition: all .4s;
+  margin-bottom: 20px;
+}
+
+.coluna00 .content .box:hover{
+  box-shadow: 0px 3px 12px 0px #0434d1;
+  border:  solid 1px transparent;
+}
+
+.coluna00 .content .box::before{
+  content: '';
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  right: calc(100% + 22px);
+  top: 0;
+  background-color: #0daaaf;
+  border: solid 1px #fff;
+}
+
+.box h4{
+  position: relative;
+  color: #0daaaf;
+  font-weight: 600;
+}
+
+.box h3{
+  font-size: 18px;
+  padding: 10 0 6px;
+  color: #313b44;
+}
+.box p{
+  line-height: 1.2;
+  color: #666;
+  font-size: 14px;
+}

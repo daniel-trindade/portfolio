@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #a8e0f1;
+  background-color: #fcfcfc;
 }
 
 .nameContainer{
@@ -40,21 +40,39 @@
 
 .aboutMe{
   height: 100vh;
+  width: 100%;
   display: flex;
-  width: 1000px;
-  align-items: center;
-  justify-content: center;
+  align-items:center;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+}
+
+.meLeft{
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  margin-left: 50px;
+}
+
+.meRight{
+  width: 50%;
 }
 
 .me{
   display: flex;
+  margin-bottom: 50px;
 }
 
 .txtContainer{
   text-align: left;
   margin: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: justify;
 }
 
 .mePhoto{
