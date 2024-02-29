@@ -26,7 +26,7 @@
   left: var(--xAxis);
   border-radius: 50%;
   transform: translate(-50%, -50%);
-  transition: width .5s, height .5s;
+  transition: width .6s, height .5s;
 }
 
 .button:hover::before{
