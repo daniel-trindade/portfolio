@@ -1,5 +1,3 @@
-import { useState } from 'react'
-
 import styles from './TechBox.module.css'
 import javaScript from '../imgs/logos/JavaScript.png'
 import Cplus from '../imgs/logos/C++.png'
@@ -32,13 +30,21 @@ const TechBox = ({tech, lvlExp}) => {
     logo = react
   }
 
+  const fillWidth = {
+    1: '10%',
+    2: '50%',
+    3: '100%'
+  }[lvlExp]|| '0%';
+
 
   return(
     <div className={styles.techContainer}>
       <h1>{tech}</h1>
       <img src={logo} alt={`${tech} logo`} />
       <p>Expertise</p>
-      <div className={styles.progressBar}></div>
+      <div className={styles.progressBar}>
+        <div className={styles.progressFill} style={{ width: fillWidth }}></div>
+      </div>
     </div>
   )
 }

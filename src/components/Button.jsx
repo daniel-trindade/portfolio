@@ -2,7 +2,7 @@ import { useRef } from 'react'
 
 import styles from './Button.module.css'
 
-const Button = ({btnName}) =>{
+const Button = ({btnName, link, download, type}) =>{
 
   const btnRef = useRef()
 
@@ -19,7 +19,7 @@ const Button = ({btnName}) =>{
 
   return(
     <div>
-      <a href="#" className={styles.button} onMouseMove={btnFunction} ref={btnRef}> 
+      <a href={link} download={download} type={type} className={styles.button} onMouseMove={btnFunction} ref={btnRef}> 
         <span>
           {btnName}
         </span>

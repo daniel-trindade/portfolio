@@ -30,7 +30,7 @@ const HomePage = () => {
 
           </div>
 
-          <Button btnName='Acesse meu Curriculo'/>
+          <Button btnName='Acesse meu Curriculo' link='download/Curriculum.pdf' download='Curriculum.pdf' type='application/pdf'/>
 
         </div>
 
@@ -60,11 +60,11 @@ const HomePage = () => {
           />
           <TechBox
             tech="C++"
-            lvlExp="2"
+            lvlExp="1"
           />
           <TechBox
             tech="Python"
-            lvlExp="2"
+            lvlExp="1"
           />
           
         </div>
