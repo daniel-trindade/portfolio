@@ -37,7 +37,7 @@ const TimeLine = () =>{
 
             <div className={styles.box}>
               <h4>2023 - Presente</h4>
-              <h3>Ciencia & Tecnologia (UFRN)</h3>
+              <h3>Engenharia da Computação (UFRN)</h3>
               <p>
                 Cursandoo o 7º período de Engenharia da Computação pela Universidade Federal do Rio Grande do Norte com 58% do curso integralizado.
               </p>

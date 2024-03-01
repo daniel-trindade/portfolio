@@ -12,8 +12,13 @@ const HomePage = () => {
   return(
     <div className={styles.mainContainer}>
       <section className={styles.nameContainer}>
-        <h1 className={styles.initialScreem}>Daniel Trindade</h1>
-        <p>Desenvolvedor WEB</p>
+
+        <h1>
+          Daniel Trindade
+        </h1>
+        <p>
+          Desenvolvedor WEB
+        </p>
       </section>
       <section className={styles.aboutMe}>
         <div className={styles.meLeft}>
