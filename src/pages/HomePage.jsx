@@ -75,7 +75,7 @@ const HomePage = () => {
           <ProjBox
             img={imgCosts}
             title='Costs' 
-            description='Um gerenciador financeiro para projetos de desenvolvimento web, sendo possível definir projetos com seus respectivos orçamentos e inserir cada custo que o projeto teve visando ter um maior controle financeito de cada projeto'
+            description='Gerenciador financeiro para projetos de desenvolvimento web, sendo possível definir projetos com seus respectivos orçamentos e inserir cada custo que o projeto teve visando ter um maior controle financeito de cada projeto'
             techs={['React', 'JavaScript', 'HTML', 'CSS']}
           />
         </a>
