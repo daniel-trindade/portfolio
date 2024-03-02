@@ -36,7 +36,7 @@
 }
 
 .navBar ul li a:hover::after {
-  width: 100%; /* Faz o sublinhado crescer até a largura total do texto */
+  width: 100%;
   left: 0;
   transform: translateX(0%);
 }

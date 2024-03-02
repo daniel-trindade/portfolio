@@ -92,6 +92,9 @@ const HomePage = () => {
             tech="Python"
             lvlExp="1"
           />
+        </div>
+        <div>
+          <h2>Habilidades</h2>
           
         </div>
       </section>
