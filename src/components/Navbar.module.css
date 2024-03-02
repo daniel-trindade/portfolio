@@ -1,0 +1,42 @@
+.navBar{
+  width: 100%;
+  position: fixed;
+  background-color: rgba(13, 13, 14, .9);
+  z-index: 1000;
+}
+
+.navBar ul{
+  display: flex;
+  padding-right: 40px;
+}
+
+.navBar ul li{
+  padding: 20px;
+  list-style: none;
+}
+
+.navBar ul li a{
+  text-decoration: none;
+  color: aliceblue;
+  position: relative;
+  display: inline-block;
+}
+
+.navBar ul li a::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: aliceblue;
+  transition: width 0.3s ease;
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.navBar ul li a:hover::after {
+  width: 100%; /* Faz o sublinhado crescer até a largura total do texto */
+  left: 0;
+  transform: translateX(0%);
+}

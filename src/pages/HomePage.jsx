@@ -1,17 +1,19 @@
-import styles from './HomePage.module.css'
-import TechBox from '../components/TechBox'
-import meImg from '../imgs/eusemfundo.png'
-import ProjBox from '../components/ProjBox'
+import { FaLinkedin, FaInstagram, FaGithub } from 'react-icons/fa'
+
 import imgCosts from '../imgs/projs/Costs1.PNG'
-import Button from '../components/Button'
 import TimeLine from '../components/TimeLine'
+import ProjBox from '../components/ProjBox'
+import TechBox from '../components/TechBox'
+import styles from './HomePage.module.css'
+import meImg from '../imgs/eusemfundo.png'
+import Button from '../components/Button'
 
 
 const HomePage = () => {
 
   return(
     <div className={styles.mainContainer}>
-      <section className={styles.nameContainer}>
+      <section className={styles.nameContainer} id='home'>
 
         <h1>
           Daniel Trindade
@@ -19,12 +21,31 @@ const HomePage = () => {
         <p>
           Desenvolvedor WEB
         </p>
+        <div className={styles.socialMedia}>
+          <ul>
+            <li>
+              <a href="https://github.com/daniel-trindade" target='blank'>
+                <FaGithub/>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/daniel-trindade-9009b117a/" target='blank'>
+                <FaLinkedin/> 
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/dan.nieltrindade/" target='blank'>
+                <FaInstagram/> 
+              </a>
+            </li>
+          </ul>
+        </div>
       </section>
-      <section className={styles.aboutMe}>
+      <section className={styles.aboutMe} id='aboutMe'>
         <div className={styles.meLeft}>
           <div className={styles.me}>
             <div className={styles.imgContainer}>
-              <img src={meImg} className={styles.mePhoto} />
+              <img src={meImg} className={styles.mePhoto} alt='Foto de Daniel Trindade' />
             </div>
             <div className={styles.txtContainer}>
               <h1>Sobre mim</h1>
@@ -44,7 +65,7 @@ const HomePage = () => {
         </div>
         
       </section>
-      <section className={styles.techContainer}>
+      <section className={styles.techContainer} id='tech'>
         <h1>Tecnologias</h1>
         <div className={styles.tech}>
           <TechBox
@@ -74,7 +95,7 @@ const HomePage = () => {
           
         </div>
       </section>
-      <div className={styles.projectContainer}>
+      <div className={styles.projectContainer} id='projects'>
         <h1>Projetos</h1>
         <a href="#">        
           <ProjBox

@@ -12,19 +12,19 @@ const Footer = () => {
         </h1>
         <ul className={styles.list}>
           <li className={styles.item}>
-            <a href="https://github.com/daniel-trindade">
+            <a href="https://github.com/daniel-trindade"  target='blank'>
               <FaGithub/>
               <p>GitHub</p>
             </a>
           </li>
           <li className={styles.item}>
-            <a href="https://www.linkedin.com/in/daniel-trindade-9009b117a/">
+            <a href="https://www.linkedin.com/in/daniel-trindade-9009b117a/"  target='blank'>
               <FaLinkedin/> 
               <p>LinkedIn</p>
             </a>
           </li>
           <li className={styles.item}>
-            <a href="https://www.instagram.com/dan.nieltrindade/">
+            <a href="https://www.instagram.com/dan.nieltrindade/"  target='blank'>
               <FaInstagram/> 
               <p>Instagram</p>
             </a>
