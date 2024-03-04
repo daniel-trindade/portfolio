@@ -1,9 +1,9 @@
 import { FaLinkedin, FaInstagram, FaGithub } from 'react-icons/fa'
 
 import imgCosts from '../imgs/projs/Costs1.PNG'
+import Skills from '../components/Skills'
 import TimeLine from '../components/TimeLine'
 import ProjBox from '../components/ProjBox'
-import TechBox from '../components/TechBox'
 import styles from './HomePage.module.css'
 import meImg from '../imgs/eusemfundo.png'
 import Button from '../components/Button'
@@ -66,37 +66,7 @@ const HomePage = () => {
         
       </section>
       <section className={styles.techContainer} id='tech'>
-        <h1>Tecnologias</h1>
-        <div className={styles.tech}>
-          <TechBox
-            tech="HTML"
-            lvlExp="2"
-          />
-          <TechBox
-            tech="CSS"
-            lvlExp="2"
-          />
-          <TechBox
-            tech="JavaScript"
-            lvlExp="2"
-          />
-          <TechBox
-            tech="React"
-            lvlExp="2"
-          />
-          <TechBox
-            tech="C++"
-            lvlExp="1"
-          />
-          <TechBox
-            tech="Python"
-            lvlExp="1"
-          />
-        </div>
-        <div>
-          <h2>Habilidades</h2>
-          
-        </div>
+        <Skills/>
       </section>
       <div className={styles.projectContainer} id='projects'>
         <h1>Projetos</h1>
