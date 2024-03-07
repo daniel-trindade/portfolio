@@ -50,7 +50,7 @@ const HomePage = () => {
             <div className={styles.txtContainer}>
               <h1>Sobre mim</h1>
               <p>
-                Sou apaixonado por tecnologia e dedicado à programação web. Graduado em Ciência e Tecnologia pela Universidade Federal do Rio Grande do Norte (UFRN), atualmente cursando o 7° período de Engenharia da Computação na mesma instituição. Sou um profissional criativo, de rápido aprendizado e que aprecia desafios.
+                Sou apaixonado por tecnologia e dedicado à programação web tenho dado enfase ao front-end. Graduado em Ciência e Tecnologia pela Universidade Federal do Rio Grande do Norte (UFRN), atualmente cursando o 7° período de Engenharia da Computação na mesma instituição. Sou um profissional criativo, de rápido aprendizado e que aprecia desafios.
               </p>
             </div>
 
