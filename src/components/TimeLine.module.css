@@ -1,3 +1,9 @@
+:root{
+  --high-light-color: #03a1a6;
+
+}
+
+
 .timeLineContainer{
   padding: 35px 5%;
   text-align: left;
@@ -9,7 +15,7 @@
 }
 
 .coluna00 header.colunaTitulo{
-  color: #0daaaf;
+  color: var(--high-light-color);
   margin-bottom: 20px;
 }
 
@@ -29,7 +35,7 @@
 }
 
 .coluna00 .content .box:hover{
-  box-shadow: 0px 3px 12px 0px #0434d1;
+  box-shadow: 0px 3px 12px 0px #fff;
   border:  solid 1px transparent;
 }
 
@@ -41,23 +47,23 @@
   border-radius: 50%;
   right: calc(100% + 22px);
   top: 0;
-  background-color: #0daaaf;
+  background-color: var(--high-light-color);
   border: solid 1px #fff;
 }
 
 .box h4{
   position: relative;
-  color: #0daaaf;
+  color:var(--high-light-color);
   font-weight: 600;
 }
 
 .box h3{
   font-size: 18px;
   padding: 10 0 6px;
-  color: #313b44;
+  color: #000000;
 }
 .box p{
   line-height: 1.2;
-  color: #666;
+  color: #fff;
   font-size: 14px;
 }
