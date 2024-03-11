@@ -5,56 +5,51 @@ import TechBox from './TechBox'
 const Skills = () =>{
   return(
     <div className={styles.skillContainer}>
-
-      <h2>Habilidades</h2>
-
-      <div className={styles.organizer}>
-
-        <div className={styles.sideContainer}>
-          <h3>Soft Skills</h3>
-          <div className={styles.tech}>
-            <div className={styles.box}>
-              <h3>Inglês</h3>
-              <p>
-                <span>Writing:</span> Intermediário - <span>Listening:</span> Avançado - <span>Speaking:</span> Avançado. <br />
-              </p>
-            </div>
-          </div>
+      <h2>Tecnologias</h2>
+      <div className={styles.tech}>
+        <div className={styles.appearSix}>
+          <TechBox
+            tech="HTML"
+            lvlExp="2"
+          />
+        </div>
+        <div className={styles.appearFive}>
+          <TechBox
+            tech="CSS"
+            lvlExp="2"
+          />
+        </div>
+        <div className={styles.appearFour}>
+          <TechBox
+            tech="JavaScript"
+            lvlExp="2"
+          />
         </div>
 
-        <div className={styles.sideContainer}>
-          <h3>Tecnologias</h3>
-          <div className={styles.tech}>
-            <TechBox
-              tech="HTML"
-              lvlExp="2"
-            />
-            <TechBox
-              tech="CSS"
-              lvlExp="2"
-            />
-            <TechBox
-              tech="JavaScript"
-              lvlExp="2"
-            />
-            <TechBox
-              tech="React"
-              lvlExp="2"
-            />
-            <TechBox
-              tech="C++"
-              lvlExp="1"
-            />
-            <TechBox
-              tech="Python"
-              lvlExp="1"
-            />
-          </div>
+        <div className={styles.appearThree}>
+          <TechBox
+            tech="React"
+            lvlExp="2"
+          />
+        </div>
+
+        <div className={styles.appearTwo}>
+          <TechBox
+            tech="C++"
+            lvlExp="1"
+          />
+        </div>
+
+        <div className={styles.appearOne}>
+          <TechBox
+            tech="Python"
+            lvlExp="1"
+          />
         </div>
 
       </div>
-
     </div>
+
   )
 }
 
