@@ -41,7 +41,7 @@ const TechBox = ({tech, lvlExp}) => {
     <div className={styles.techContainer}>
       <h1>{tech}</h1>
       <img src={logo} alt={`${tech} logo`} />
-      <p>Expertise</p>
+      <p>Experiência</p>
       <div className={styles.progressBar}>
         <div className={styles.progressFill} style={{ width: fillWidth }}></div>
       </div>

@@ -46,7 +46,13 @@ const Skills = () =>{
             lvlExp="1"
           />
         </div>
-
+      </div>
+      <div className={styles.soft}>
+        <h2>Habilidades</h2>
+        <div className={styles.skill}>
+          <h3>Inglês</h3>
+          <span>Writing:</span> Intemediário <span>Listening:</span> Avançado <span>Speaking:</span> Avançado
+        </div>
       </div>
     </div>
 
