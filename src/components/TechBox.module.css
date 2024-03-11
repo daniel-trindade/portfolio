@@ -16,6 +16,10 @@
   margin-bottom: 10px;
 }
 
+.techContainer h1{
+  color: #fff;
+}
+
 .techContainer p{
   font-weight: bold;
   margin-bottom: 5px;

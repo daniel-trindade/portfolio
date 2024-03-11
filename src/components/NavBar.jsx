@@ -9,6 +9,7 @@ const NavBar = ({anchor}) =>{
         <li><a href="#tech">Tecnologias e Habilidades</a></li>
         <li><a href="#projects">Projetos</a></li>
       </ul>
+      <div className={styles.progressBar}></div>
     </nav>
   )
 }
