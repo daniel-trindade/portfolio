@@ -1,12 +1,12 @@
 import { FaLinkedin, FaInstagram, FaGithub } from 'react-icons/fa'
 
-import imgCosts from '../imgs/projs/Costs1.PNG'
+
 import Skills from '../components/Skills'
 import TimeLine from '../components/TimeLine'
-import ProjBox from '../components/ProjBox'
 import styles from './HomePage.module.css'
 import meImg from '../imgs/eusemfundo.png'
 import Button from '../components/Button'
+import Projects from '../components/Projects'
 
 
 const HomePage = () => {
@@ -68,19 +68,9 @@ const HomePage = () => {
       <section className={styles.techContainer} id='tech'>
         <Skills/>
       </section>
-      <div className={styles.projectContainer} id='projects'>
-        <h1>Projetos</h1>
-        <a href="#">        
-          <ProjBox
-            img={imgCosts}
-            title='Costs' 
-            description='Gerenciador financeiro para projetos de desenvolvimento web, sendo possível definir projetos com seus respectivos orçamentos e inserir cada custo que o projeto teve visando ter um maior controle financeito de cada projeto'
-            techs={['React', 'JavaScript', 'HTML', 'CSS']}
-          />
-        </a>
-
-
-      </div>
+      <section className={styles.projects} id='projects'>
+        <Projects/>
+      </section>
     </div>
   )
 
