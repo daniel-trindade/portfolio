@@ -1,6 +1,5 @@
 import { FaLinkedin, FaInstagram, FaGithub } from 'react-icons/fa'
 
-
 import Skills from '../components/Skills'
 import TimeLine from '../components/TimeLine'
 import styles from './HomePage.module.css'
