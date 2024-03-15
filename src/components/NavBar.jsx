@@ -1,6 +1,6 @@
 import styles from './NavBar.module.css'
 
-const NavBar = ({anchor}) =>{
+const NavBar = () =>{
   return(
     <nav className={styles.navBar}>
       <ul>

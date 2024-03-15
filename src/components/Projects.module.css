@@ -1,3 +1,7 @@
+*{
+  color: #fff;
+}
+
 .projectsContainer{
   width: 100%;
   height: 100%;
@@ -7,6 +11,16 @@
 }
 
 .sectionTitle{
+  font-size: 24pt;
   margin-top: 80px;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
+}
+
+.projects{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  
 }

@@ -50,12 +50,6 @@
   box-shadow: inset 0 0 32px #14fff1, 0 0 32px #14fff1;
 }
 
-.progress{
-  color: #fff;
-  font-size: 50pt;
-  text-shadow: 0 0 10px #03bcf4;
-}
-
 @keyframes progress{
   from{
     scale: 0 1;
