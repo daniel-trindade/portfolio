@@ -16,6 +16,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  text-align: center;
 }
 
 .nameContainer::after{
@@ -86,4 +87,10 @@
 
 .socialMedia ul li a:hover{
   font-size: 50pt;
+}
+
+@media (max-width: 480px) {
+  .nameContainer h1{
+    font-size: 30pt;
+  }
 }

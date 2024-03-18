@@ -1,14 +1,16 @@
 import { FaLinkedin, FaInstagram, FaGithub } from 'react-icons/fa'
 
-import styles from "./Me.module.css"
+import styles from "./Cover.module.css"
 
 const Me = () => {
 
   return(
-    <section className={styles.nameContainer} id='home'>
+    <div className={styles.nameContainer} id='home'>
 
       <h1>Daniel Trindade</h1>
+
       <p>Desenvolvedor WEB</p>
+
       <div className={styles.socialMedia}>
         <ul>
           <li>
@@ -28,7 +30,8 @@ const Me = () => {
           </li>
         </ul>
       </div>
-    </section>
+      
+    </div>
   )
 }
 

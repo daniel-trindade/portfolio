@@ -1,5 +1,5 @@
 import styles from './Projects.module.css'
-import ProjectBox from './ProjectBox'
+import ProjectBox from '../components/ProjectBox'
 import calcImg from '../imgs/projs/calculadora/calculadora1.PNG'
 import costImg from '../imgs/projs/costs/costs1.PNG'
 import accervoImg from '../imgs/projs/accervo/acervo1.PNG'

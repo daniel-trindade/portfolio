@@ -1,6 +1,6 @@
 import styles from './Skills.module.css'
 
-import TechBox from './TechBox'
+import TechBox from '../components/TechBox'
 
 const Skills = () =>{
   return(
