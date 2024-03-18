@@ -13,7 +13,7 @@ const NavBar = () =>{
 
   return(
     <nav className={styles.navBar}>
-      <a onClick={visible} href="#" className={styles.hamburgerMenu}><FaHamburger /></a>
+      <div onClick={visible} className={styles.hamburgerMenu}><FaHamburger /></div>
       <ul className={`${styles.menuItem} ${menuVisible ? styles.visible : styles.hidden}`}>
         <li><a href="#home">Início</a></li>
         <li><a href="#aboutMe">Sobre mim</a></li>

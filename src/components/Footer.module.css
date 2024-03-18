@@ -7,7 +7,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  position: absolute;
   text-align: center;
 }
 
@@ -69,4 +68,12 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+@media (max-width: 480px) {
+  .item{
+    scale: .8;
+    margin: 0;
+  }
+  
 }

@@ -26,3 +26,11 @@
   justify-content: space-around;
 
 }
+
+@media (max-width: 480px) {
+  .projects{
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+}

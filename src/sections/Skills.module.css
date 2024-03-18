@@ -91,4 +91,23 @@
     opacity: 1;
     translate: 0 0;
   }
+
+}
+
+@media (max-width: 480px) {
+    .skillContainer{
+      padding: 100px 0;
+    }
+
+    .soft{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .skill{
+      width: 45%;
+      height: 120px;
+    }
+
 }

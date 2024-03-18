@@ -1,6 +1,4 @@
 .aboutMe{
-  height: 100vh;
-  width: 100%;
   display: flex;
   align-items:center;
   justify-content: space-between;
@@ -44,4 +42,36 @@
 
 .mePhoto{
   height: 300px;
+}
+
+@media (max-width: 480px) {
+  .aboutMe{
+    flex-direction: column;
+    padding-top: 100px;
+    justify-content: center;
+  }
+
+  .meLeft{
+    width: 100%;
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .txtContainer{
+    width: 80%;
+    margin: 30px 0 0 0;
+    width: ;
+  }
+
+  .meRight{
+    margin-top: 20px;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .me{
+    flex-direction: column;
+    align-items: center;
+  }
+
 }
