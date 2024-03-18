@@ -1,0 +1,89 @@
+.mainContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fcfcfc;
+}
+
+.nameContainer{
+  height: 100vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-image: url('../imgs/room-background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.nameContainer::after{
+  content: "";
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  z-index: 8;
+  background: linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100% );
+}
+
+.nameContainer h1{
+  color: #fff;
+  font-size: 50pt;
+  text-shadow: 0 0 10px #03bcf4;
+}
+
+.nameContainer p{
+  position: relative;
+  font-size: 20pt;
+  letter-spacing: 10px;
+  color: #0e3742;
+  text-transform: uppercase;
+  width: 100%;
+  -webkit-box-reflect: below 1px linear-gradient(transparent, #0008);
+  line-height: .7em;
+  outline: none;
+  animation: animate 5s linear infinite;
+}
+
+@keyframes animate{
+  0%,18%,20%,50.1%,60%,65.1%,80%,90.1%,92%{
+    color: #0e3742;
+    text-shadow: none;
+  }
+  18.1%,20.1%,30%,50%,60.1%,65%,80.1%,90%, 92.1%,100%{
+    color: #fff;
+    text-shadow: 0 0 10px #03bcf4,
+    0 0 20px #03bcf4,
+    0 0 40px #03bcf4,
+    0 0 80px #03bcf4,
+    0 0 160px #03bcf4;
+    
+  }
+}
+
+.socialMedia{
+  padding-top: 500px;
+  position: absolute;
+  z-index: 10;
+}
+
+.socialMedia ul{
+  display: flex;
+  list-style: none;
+}
+
+.socialMedia ul li{
+  padding: 0 20px;
+}
+
+.socialMedia ul li a{
+  font-size: 30pt;
+  color: #fff;
+  text-decoration: none;
+  transition: .5s;
+}
+
+.socialMedia ul li a:hover{
+  font-size: 50pt;
+}

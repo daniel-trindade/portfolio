@@ -6,40 +6,14 @@ import styles from './HomePage.module.css'
 import meImg from '../imgs/eusemfundo.png'
 import Button from '../components/Button'
 import Projects from '../components/Projects'
+import Me from '../components/Me'
 
 
 const HomePage = () => {
 
   return(
     <div className={styles.mainContainer}>
-      <section className={styles.nameContainer} id='home'>
-
-        <h1>
-          Daniel Trindade
-        </h1>
-        <p>
-          Desenvolvedor WEB
-        </p>
-        <div className={styles.socialMedia}>
-          <ul>
-            <li>
-              <a href="https://github.com/daniel-trindade" target='blank'>
-                <FaGithub/>
-              </a>
-            </li>
-            <li>
-              <a href="https://www.linkedin.com/in/daniel-trindade-9009b117a/" target='blank'>
-                <FaLinkedin/> 
-              </a>
-            </li>
-            <li>
-              <a href="https://www.instagram.com/dan.nieltrindade/" target='blank'>
-                <FaInstagram/> 
-              </a>
-            </li>
-          </ul>
-        </div>
-      </section>
+      <Me/>
       <section className={styles.aboutMe} id='aboutMe'>
         <div className={styles.meLeft}>
           <div className={styles.me}>
