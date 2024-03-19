@@ -89,7 +89,7 @@
   
 }
 
-@media (max-width: 380px) {
+@media (max-width: 420px) {
   .item{
     scale: .5;
     margin: -15px;
