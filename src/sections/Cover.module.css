@@ -94,9 +94,6 @@
   .nameContainer p{
     font-size: 10pt;
   }
-  .nameContainer h1{
-    color: #4b0404;
-  }
 }
 
 @media (max-width: 480px) {
