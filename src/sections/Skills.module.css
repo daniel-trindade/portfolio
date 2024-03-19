@@ -110,4 +110,15 @@
       height: 120px;
     }
 
+    .skill h3{
+      text-align: center;
+    }
+
+}
+
+@media (max-width: 360px) {
+  .skill{
+    height: 180px;
+  }
+  
 }

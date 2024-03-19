@@ -89,8 +89,16 @@
   font-size: 50pt;
 }
 
+
+@media (max-width: 360px){
+  .nameContainer p{
+    font-size: 10pt;
+  }
+}
+
 @media (max-width: 480px) {
   .nameContainer h1{
     font-size: 30pt;
   }
 }
+

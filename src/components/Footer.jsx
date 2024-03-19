@@ -31,6 +31,8 @@ const Footer = () => {
           </li>
         </ul>
 
+        <p className={styles.copy}>Daniel Trindade &copy; 2024 </p>
+  
     </div>
   )
 

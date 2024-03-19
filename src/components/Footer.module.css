@@ -6,17 +6,15 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   text-align: center;
 }
 
 .footerContainer h1{
-  margin-bottom: 20px;
-  position: relative;
-  top: -110px
+  margin-top: 10px;
 }
 
-.footerContainer p{
+.item p{
   font-size: 18pt;
   font-weight: bold;
   width: 150px;
@@ -27,6 +25,7 @@
   list-style: none;
   font-size: 18pt;
   position: absolute;
+  margin-top: 80px;
 }
 
 .item{
@@ -70,10 +69,30 @@
   justify-content: center;
 }
 
+
+
+.copy{
+  width: 300px;
+  margin-bottom: 40px;
+  font-size: 16pt;
+
+}
+
 @media (max-width: 480px) {
+  .footerContainer{
+    height: 40vh;
+  }
   .item{
     scale: .8;
     margin: 0;
+  }
+  
+}
+
+@media (max-width: 360px) {
+  .item{
+    scale: .5;
+    margin: -15px;
   }
   
 }
