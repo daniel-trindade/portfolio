@@ -38,7 +38,7 @@
   border-radius: 5px;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 380px) {
   .techContainer{
     scale: .8;
     margin: 0;
