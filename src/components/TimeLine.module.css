@@ -1,13 +1,10 @@
 :root{
   --high-light-color: #03a1a6;
-
 }
-
 
 .timeLineContainer{
   padding: 35px 5%;
-  text-align: left;
-
+  margin-left: 25px;
 }
 
 .row{
