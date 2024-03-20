@@ -46,8 +46,15 @@
   height: 300px;
 }
 
+@media (min-width: 1400px) {
+  .aboutMeContainer{
+    width: 80%;
+    padding-top: 0;
+  }
+}
+
 @media (max-width: 480px) {
-  .aboutMe{
+  .aboutMeContainer{
     flex-direction: column;
     padding-top: 100px;
     justify-content: center;
@@ -77,9 +84,3 @@
 
 }
 
-@media (min-width: 1400px) {
-  .aboutMeContainer{
-    width: 80%;
-    padding-top: 0;
-  }
-}
