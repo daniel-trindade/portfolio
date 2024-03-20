@@ -10,11 +10,11 @@ const HomePage = () => {
   return(
     <main className={styles.mainContainer}>
 
-      <section className={styles.cover}>
+      <section className={styles.cover} id='cover'>
         <Cover/>
       </section>
 
-      <section className={styles.AboutMe}>
+      <section className={styles.aboutMe} id='aboutMe'>
         <AboutMe/>
       </section>
 

@@ -1,11 +1,13 @@
-.aboutMe{
+.aboutMeContainer{
   display: flex;
+  width: 100%;
+  height: 100%;
   align-items:center;
   justify-content: space-between;
   display: flex;
   flex-direction: row;
-  padding-top: 40px;
   background-color: #545c5e;
+  padding-top: 40px;
 }
 
 .meLeft{
@@ -73,4 +75,11 @@
     align-items: center;
   }
 
+}
+
+@media (min-width: 1400px) {
+  .aboutMeContainer{
+    width: 80%;
+    padding-top: 0;
+  }
 }

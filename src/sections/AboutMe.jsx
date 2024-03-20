@@ -6,7 +6,7 @@ import meImg from '../imgs/eusemfundo.png'
 
 const AboutMe = () => {
   return(
-    <div className={styles.aboutMe} id='aboutMe'>
+    <div className={styles.aboutMeContainer}>
         <div className={styles.meLeft}>
           <div className={styles.me}>
             <div className={styles.imgContainer}>

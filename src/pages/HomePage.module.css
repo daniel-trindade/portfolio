@@ -5,7 +5,11 @@
 
 .aboutMe{
   width: 100%;
-  min-height: 100vh; 
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #545c5e;
 }
 
 .skills{
@@ -17,5 +21,8 @@
 .projects{
   width: 100%;
   min-height: 100vh;
+  display: flex;
+
+  justify-content: center;
   background-color: #000;
 }

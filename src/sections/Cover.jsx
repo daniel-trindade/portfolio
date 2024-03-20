@@ -5,7 +5,7 @@ import styles from "./Cover.module.css"
 const Me = () => {
 
   return(
-    <div className={styles.nameContainer} id='home'>
+    <div className={styles.nameContainer}>
 
       <h1>Daniel Trindade</h1>
 

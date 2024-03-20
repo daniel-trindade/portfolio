@@ -30,7 +30,7 @@
   border-radius: 20px;
   text-align: left;
   padding: 10px;
-  margin-top: 20px;
+  margin: 20px 0;
   animation: appearLeft ease;
   animation-timeline: view();
   animation-range: cover 0% cover 20%;
@@ -120,5 +120,13 @@
   .skill{
     height: 130px;
   }
+  
+}
+
+@media (min-width: 1400px) {
+  .skillContainer{
+    height: 100vh;
+  }
+
   
 }
