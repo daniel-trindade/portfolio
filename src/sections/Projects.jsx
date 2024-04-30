@@ -14,21 +14,21 @@ const Projects = () =>{
         <ProjectBox
           img={calcImg}
           title="Calculadora"
-          description="Calculadora para calculos simples como soma, subtração, divisão, multiplicação, potenciação, destre outros. O projeto visou por em prática peicipalmente a criação de botões e organização com CSS."
+          description="Calculadora para calculos simples como soma, subtração, divisão, multiplicação, potenciação, dentre outros. O projeto visou por em prática principalmente a criação de botões e implementalção de estilos com CSS."
           techs={["HTML", "CSS", "JavaScript"]}
         />
 
         <ProjectBox
           img={accervoImg}
           title="Accervo"
-          description="Site desenvolvio para ajudar estudantes com pequenas facilidades, tais como um conversor de Volume, Comprimentos e Temperatura e Um aplicativo de analize geométrica."
+          description="Site desenvolvido para ajudar estudantes fornecendo pequenas facilidades, tais como um conversor de Volume, Comprimentos e Temperatura e Um aplicativo de analize geométrica."
           techs={["HTML", "CSS", "React", "JavaScript"]}
         />
 
         <ProjectBox
           img={costImg}
-          title="Calculadora"
-          description="Calculadora para calculos simples como soma, subtração, divisão, multiplicação, potenciação, destre outros. O projeto visou por em prática peicipalmente a criação de botões e organização com CSS."
+          title="Costs"
+          description="Um sistema de gerenciamento financeiro desenvolvido em React com o intuito de por em prática comunicação com banco de dados e criação de formulários "
           techs={["HTML", "CSS", "React"]}
         />
       </div>
