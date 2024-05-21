@@ -1,7 +1,7 @@
-import Button from "../components/Button"
 import styles from "./AboutMe.module.css"
 import TimeLine from "../components/TimeLine"
 import meImg from '../imgs/eusemfundo.png'
+import DownloadButton from "../components/DownloadButton"
 
 
 const AboutMe = () => {
@@ -21,8 +21,7 @@ const AboutMe = () => {
 
           </div>
 
-          <Button btnName='Acesse meu Curriculo' link='download/Curriculum.pdf' download='Curriculum.pdf' type='application/pdf'/>
-
+          <DownloadButton/>
         </div>
 
         <div className={styles.meRight}>
