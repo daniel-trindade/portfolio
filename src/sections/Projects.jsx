@@ -14,14 +14,14 @@ const Projects = () =>{
         <ProjectBox
           img={calcImg}
           title="Calculadora"
-          description="Calculadora para calculos simples como soma, subtração, divisão, multiplicação, potenciação, dentre outros. O projeto visou por em prática principalmente a criação de botões e implementalção de estilos com CSS."
+          description="Calculadora para calculos simples como soma, subtração, divisão, multiplicação, potenciação, dentre outros. O projeto visou por em prática principalmente a criação de botões e implementação de estilos com CSS."
           techs={["HTML", "CSS", "JavaScript"]}
         />
 
         <ProjectBox
           img={accervoImg}
           title="Accervo"
-          description="Site desenvolvido para ajudar estudantes fornecendo pequenas facilidades, tais como um conversor de Volume, Comprimentos e Temperatura e Um aplicativo de analize geométrica."
+          description="Site desenvolvido para ajudar estudantes fornecendo pequenas facilidades, tais como um conversor de Volume, Comprimentos e Temperatura como também Um aplicativo de analize geométrica."
           techs={["HTML", "CSS", "React", "JavaScript"]}
         />
 
