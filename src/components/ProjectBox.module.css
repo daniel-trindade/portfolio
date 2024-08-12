@@ -89,6 +89,7 @@
 @media (max-width: 420px) {
   .container{
     scale: .8;
+    margin: 10px;
   }
   
 }
