@@ -10,6 +10,11 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin: 30px;
+}
+
+.link{
+  text-decoration: none;
 }
 
 .container::before{
@@ -34,8 +39,14 @@
   z-index: 10;
 }
 
-.container img{
+.img{
   width: 280px;
+  margin-top: 10px;
+  border: 1px solid black;
+}
+
+.size{
+  height: 150px;
   margin-top: 10px;
   border: 1px solid black;
 }
