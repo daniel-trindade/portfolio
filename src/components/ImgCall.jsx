@@ -6,6 +6,8 @@ import python from '../imgs/logos/Python.png'
 import html from '../imgs/logos/HTML.png'
 import css from '../imgs/logos/CSS.png'
 import react from '../imgs/logos/React.png'
+import angular from "../imgs/logos/angular.svg.png"
+import typescript from "../imgs/logos/typescript.png"
 
 const ImgCall = ({imgName, width}) => {
 
@@ -28,6 +30,12 @@ const ImgCall = ({imgName, width}) => {
   }
   if(imgName === 'React'){
     logo = react
+  }
+  if (imgName === "Angular"){
+    logo = angular
+  }
+  if (imgName === "TypeScript"){
+    logo = typescript
   }
 
   return(

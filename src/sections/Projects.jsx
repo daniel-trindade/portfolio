@@ -7,10 +7,9 @@ import presenceImg from "../imgs/projs/Presence/Presence.png";
 import calcImg from "../imgs/projs/calculadora/calculadora1.PNG";
 import portfolioImg from "../imgs/projs/portfolio/portifolio.png";
 import conviteImg from "../imgs/projs/convite virtual/convite-virtual.png";
-
+import discImg from "../imgs/projs/DISC/discImg.png";
 
 const Projects = () => {
-
   return (
     <div className={styles.projectsContainer}>
       <h2 className={styles.sectionTitle}>Projetos de Estudo Pessoal</h2>
@@ -38,10 +37,11 @@ const Projects = () => {
         />
 
         <ProjectBox
-          img={calcImg}
-          title="Calculadora"
-          description="Calculadora para calculos simples como soma, subtração, divisão, multiplicação, potenciação, dentre outros. O projeto visou por em prática principalmente a criação de botões e implementação de estilos com CSS."
-          techs={["HTML", "CSS", "JavaScript"]}
+          img={discImg}
+          title="Test D.I.S.C."
+          description="O teste de personalidade D.I.S.C. é uma ferramenta de avaliação que categoriza os comportamentos das pessoas em quatro possíveis estilos. Este projeto teve como objetivo por a prova os novos conhecimentos em TypeScript e Angular"
+          techs={["HTML", "CSS", "TypeScript", "Angular"]}
+          link="https://disc-test.vercel.app/"
         />
 
         <ProjectBox

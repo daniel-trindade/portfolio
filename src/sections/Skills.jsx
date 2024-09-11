@@ -35,15 +35,15 @@ const Skills = () =>{
 
         <div className={styles.appearTwo}>
           <TechBox
-            tech="C++"
-            lvlExp="1"
+            tech="Angular"
+            lvlExp="2"
           />
         </div>
 
         <div className={styles.appearOne}>
           <TechBox
-            tech="Python"
-            lvlExp="1"
+            tech="TypeScript"
+            lvlExp="2"
           />
         </div>
       </div>

@@ -5,6 +5,8 @@ import python from "../imgs/logos/Python.png";
 import html from "../imgs/logos/HTML.png";
 import css from "../imgs/logos/CSS.png";
 import react from "../imgs/logos/React.png";
+import angular from "../imgs/logos/angular.svg.png"
+import typescript from "../imgs/logos/typescript.png"
 
 const TechBox = ({ tech, lvlExp }) => {
   let logo = "";
@@ -27,6 +29,13 @@ const TechBox = ({ tech, lvlExp }) => {
   if (tech === "React") {
     logo = react;
   }
+  if (tech === "Angular"){
+    logo = angular
+  }
+  if (tech === "TypeScript"){
+    logo = typescript
+  }
+
 
   const fillWidth =
     {
