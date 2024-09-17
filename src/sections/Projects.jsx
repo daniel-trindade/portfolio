@@ -27,6 +27,7 @@ const Projects = () => {
           title="Accervo"
           description="Site desenvolvido para ajudar estudantes fornecendo pequenas facilidades, tais como um conversor de Volume, Comprimentos e Temperatura como também Um aplicativo de analize geométrica."
           techs={["HTML", "CSS", "React", "JavaScript"]}
+          link="https://github.com/daniel-trindade/accervo"
         />
 
         <ProjectBox
@@ -34,6 +35,7 @@ const Projects = () => {
           title="Costs"
           description="Um sistema de gerenciamento financeiro desenvolvido em React com o intuito de por em prática comunicação com banco de dados e criação de formulários "
           techs={["HTML", "CSS", "React"]}
+          link="https://github.com/daniel-trindade/costs"
         />
 
         <ProjectBox
@@ -56,7 +58,7 @@ const Projects = () => {
         <ProjectBox
           img={portfolioImg}
           title="Portfólio"
-          description="Este portifólio foi criado e implementado do zero, utilizando React e seu poder de componentização, foi feito com o intuito de mostrar as habilidades adquiridas até o presente momento. Está em contante melhoria sendo aplicado cada novo conceito aprendido"
+          description="Este portifólio foi criado e implementado do zero, utilizando React e seu poder de componentização, foi feito com o intuito de mostrar as habilidades adquiridas até o presente momento. Está em constante melhoria sendo aplicado cada novo conceito aprendido"
           techs={["HTML", "CSS", "JavaScript", "React"]}
           link="https://portfolio-kappa-lake-89.vercel.app/"
         />
