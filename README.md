@@ -12,3 +12,23 @@ Meu portifólio está online no endereço: <https://portfolio-kappa-lake-89.verc
 </div>
 
 ## Sobre a Aplicação
+
+Trata-se do meu portifólio, que teve seu design e implementação feitas por mim, tenho o atualizado periodicamente com novos projetos e com melhorias em sua implementação a media que aprendo mais sobre as tecnologias envolvidas.
+
+## Imagens do Projeto
+
+### Tela Inicial
+
+[Tela Inicial](https://i.imgur.com/El4I3qJ.png)
+
+### Tela Sobre mim
+
+[Tela Sobre Mim](https://i.imgur.com/h4ftRqo.png)
+
+### Tela de Skills
+
+[Tela de Skills](https://i.imgur.com/FqtGqud.png)
+
+### Tela de Projetos
+
+[Tela de PRojetos](https://i.imgur.com/RTdGFSD.png)
