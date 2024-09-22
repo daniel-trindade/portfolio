@@ -19,16 +19,16 @@ Trata-se do meu portifólio, que teve seu design e implementação feitas por mi
 
 ### Tela Inicial
 
-[Tela Inicial](https://i.imgur.com/El4I3qJ.png)
+![Tela Inicial](https://i.imgur.com/El4I3qJ.png)
 
 ### Tela Sobre mim
 
-[Tela Sobre Mim](https://i.imgur.com/h4ftRqo.png)
+![Tela Sobre Mim](https://i.imgur.com/h4ftRqo.png)
 
 ### Tela de Skills
 
-[Tela de Skills](https://i.imgur.com/FqtGqud.png)
+![Tela de Skills](https://i.imgur.com/FqtGqud.png)
 
 ### Tela de Projetos
 
-[Tela de PRojetos](https://i.imgur.com/RTdGFSD.png)
+![Tela de PRojetos](https://i.imgur.com/RTdGFSD.png)
