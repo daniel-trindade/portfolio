@@ -14,12 +14,30 @@ const Projects = () => {
     <div className={styles.projectsContainer}>
       <h2 className={styles.sectionTitle}>Projetos de Estudo Pessoal</h2>
       <div className={styles.projects}>
+
+        <ProjectBox
+          img={discImg}
+          title="Test D.I.S.C."
+          description="O teste de personalidade D.I.S.C. é uma ferramenta de avaliação que categoriza os comportamentos das pessoas em quatro possíveis estilos. Este projeto teve como objetivo por a prova os novos conhecimentos em TypeScript e Angular"
+          techs={["HTML", "CSS", "TypeScript", "Angular"]}
+          link="https://disc-test.vercel.app/"
+        />
+
         <ProjectBox
           img={presenceImg}
           title="Presence"
           description="Sistema Web para gerenciamento e registro de Frequencia. Foi feito com o intuito de registrar o compareciento de pessoas a reuniões, gerando assim relatórios de frequencia da turma e de cada um dos indivíduos isolados"
           techs={["HTML", "CSS", "JavaScript", "React"]}
           link="https://presence-three.vercel.app/"
+        />
+
+        <ProjectBox
+          img={conviteImg}
+          title="Convite Online"
+          description="Convite interativo para aniversário feito sob encomenda. Convite feito em duas paginas com fundo musical, confirmação de presença linkado com o WhatsApp, localização integrada com o Gooogle Maps"
+          techs={["HTML", "CSS", "JavaScript"]}
+          link="https://convite-virtual-pietra.vercel.app/"
+          size={true}
         />
 
         <ProjectBox
@@ -36,23 +54,6 @@ const Projects = () => {
           description="Um sistema de gerenciamento financeiro desenvolvido em React com o intuito de por em prática comunicação com banco de dados e criação de formulários "
           techs={["HTML", "CSS", "React"]}
           link="https://github.com/daniel-trindade/costs"
-        />
-
-        <ProjectBox
-          img={discImg}
-          title="Test D.I.S.C."
-          description="O teste de personalidade D.I.S.C. é uma ferramenta de avaliação que categoriza os comportamentos das pessoas em quatro possíveis estilos. Este projeto teve como objetivo por a prova os novos conhecimentos em TypeScript e Angular"
-          techs={["HTML", "CSS", "TypeScript", "Angular"]}
-          link="https://disc-test.vercel.app/"
-        />
-
-        <ProjectBox
-          img={conviteImg}
-          title="Convite Online"
-          description="Convite interativo para aniversário feito sob encomenda. Convite feito em duas paginas com fundo musical, confirmação de presença linkado com o WhatsApp, localização integrada com o Gooogle Maps"
-          techs={["HTML", "CSS", "JavaScript"]}
-          link="https://convite-virtual-pietra.vercel.app/"
-          size={true}
         />
 
         <ProjectBox
