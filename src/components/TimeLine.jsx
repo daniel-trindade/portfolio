@@ -28,7 +28,7 @@ const TimeLine = () =>{
             </div>
 
             <div className={styles.box}>
-              <h4>2018 - 2022</h4>
+              <h4>2018 - 2023</h4>
               <h3>Ciencia & Tecnologia (UFRN)</h3>
               <p>
                 Graduado em Ciência & Tecnologia pela Universidade Federal do Rio Grande do Norte com ênfase em Tecnologia da Computação.
@@ -36,10 +36,18 @@ const TimeLine = () =>{
             </div>
 
             <div className={styles.box}>
+              <h4>2023 - 2024</h4>
+              <h3>Curso de formação Inicial em Sistemas Embarcados (IFRN)</h3>
+              <p>
+                Curso com duração de 240hs com ênfase em Sistemas Embarcados, programação de microcontroladores e desenvolvimento de projetos.
+              </p>
+            </div>
+
+            <div className={styles.box}>
               <h4>2023 - Presente</h4>
               <h3>Engenharia da Computação (UFRN)</h3>
               <p>
-                Cursandoo o 7º período de Engenharia da Computação pela Universidade Federal do Rio Grande do Norte com 58% do curso integralizado.
+                Cursandoo o 7º período de Engenharia da Computação pela Universidade Federal do Rio Grande do Norte com 70% do curso integralizado.
               </p>
             </div>
           </div>

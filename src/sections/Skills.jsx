@@ -1,6 +1,7 @@
 import styles from './Skills.module.css'
 
 import TechBox from '../components/TechBox'
+import isf from '../imgs/ISF.png'
 
 const Skills = () =>{
   return(
@@ -51,7 +52,8 @@ const Skills = () =>{
         <h2>Habilidades</h2>
         <div className={styles.skill}>
           <h3>Inglês</h3>
-          <span>Writing:</span> Intemediário <span>Listening:</span> Avançado <span>Speaking:</span> Avançado
+          <p>Certificado TOEFL ITP B1 com boa Comunicação</p>
+          <img className={styles.isfLogo} src={isf} alt="ISF logo" />
         </div>
       </div>
     </div>
